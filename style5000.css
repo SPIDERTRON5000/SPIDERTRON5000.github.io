@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, sans-serif
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background: #344051;
+}
+.logo{
+    float: left;
+    font-size: 28px;
+    line-height: 60px;
+    color: white;
+    padding-left: 15%;
+}
+.list{
+    float: left;
+    line-height: 60px;
+    padding-left: 25%;
+}
+.list li{
+    float: left;
+    padding-left: 30px;
+    color: white;
+    font-size: 16px
+}
+.show{
+    height: 430px;
+    width: calc(100% - 60px);
+    background: url(../image/Braun.png) 90% 100%/auto 85% no-repeat , url(../image/BG.png) no-repeat;
+}
+.show h1{
+    float: left;
+    font-size: 56px;
+    color: #344051;
+    text-align: center;
+    padding-top: 430px;
+    padding-left: 15%;
+    font-weight: bold;
+    letter-spacing: -4px
+}
+.show h5{
+    font-size: 14px;
+    padding-top: 570px;
+    padding-left: calc(15% + 40px);
+    color: #79818d
+}
+.keys{
+    float: left;
+    padding-top: 40px;
+}
+[type="submit"]{
+    border: 1px solid #6d7682;
+    padding: 10px;
+    border-radius: 10%;
+    color: #6d7682;
+    margin: 10px
+}
